@@ -63,7 +63,7 @@ img {
 
 .section-advantages-photo-wrapper {
   max-width: 335px;
-  min-height: 424px;
+  height: 424px;
   border-radius: 24px;
   overflow: hidden;
   margin: 0 auto;
