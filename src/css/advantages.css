@@ -27,7 +27,6 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
-  list-style-type: none;
 }
 .section-advantages-list-item {
   display: flex;
@@ -36,7 +35,6 @@
 }
 
 .section-advantages-list-number {
-  font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 28px;
   line-height: 1;
@@ -51,7 +49,6 @@
 }
 .section-advantages-list-item-text {
   max-width: 265px;
-  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
