@@ -1,18 +1,22 @@
 .section-advantages {
   background: #0e1823;
+  padding-bottom: 80px;
+}
+img {
+  height: 100%;
 }
 .visually-hidden {
   color: #fff;
   position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-	white-space: nowrap;
-	clip-path: inset(100%);
-	clip: rect(0 0 0 0);
-	overflow: hidden;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .section-advantages-wrapper {
@@ -25,13 +29,14 @@
 
 .section-advantages-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 40px;
 }
 .section-advantages-list-item {
   display: flex;
   flex-direction: column;
   gap: 18px;
+  width: 100%;
 }
 
 .section-advantages-list-number {
@@ -48,7 +53,6 @@
   background: rgba(251, 251, 251, 0.1);
 }
 .section-advantages-list-item-text {
-  max-width: 265px;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
@@ -58,8 +62,22 @@
 }
 
 .section-advantages-photo-wrapper {
-  border-radius: 24px;
   max-width: 335px;
+  height: 424px;
+  border-radius: 24px;
   overflow: hidden;
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+  .section-advantages-wrapper,
+  .section-advantages-photo-wrapper {
+    width: 335px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
 }
