@@ -1,48 +1,58 @@
-.section {
-}
+/* --- АДАПТИВНА ВЕРСТКА --- */
+
+/*  Мобільна версія (до 767px) */
 .about-us {
   padding-top: 0;
   margin: 0 auto;
 }
-.container {
-  width: 1440px;
+.jacht-about-us {
+  width: 100%;
 }
-.about-us-container {
+.container {
+  min-width: 320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .about-us-content {
+  max-width: 335px;
   border-radius: 24px 24px 7% 7%;
   background: #fbfbfb;
   margin-right: auto;
   margin-left: auto;
   padding-left: 0;
   padding-right: 0;
-  max-width: 1340px;
 }
+
 .info-about {
   display: flex;
-  flex-direction: row;
-  padding: 50px;
-  gap: 299px;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 40px;
 }
+
 .title-about {
   font-weight: 500;
-  font-size: 48px;
+  max-width: 295px;
+  font-size: 28px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
-  max-width: 537px;
 }
+
 .describtion-about {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 404px;
+  width: 295px;
   height: 187px;
   text-align: left;
 }
+
 .text-title-about {
   font-weight: 400;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
@@ -50,15 +60,12 @@
 }
 .text-info-about {
   font-weight: 400;
-  font-size: 13px;
-  line-height: 1.15;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: -0.02em;
   color: #040306;
   opacity: 0.4;
   margin-bottom: 0;
-}
-.jacht-about-us {
-  width: 100%;
 }
 .about-us-image {
   border: none;
@@ -69,48 +76,6 @@
   height: auto;
 }
 
-/* --- АДАПТИВНА ВЕРСТКА --- */
-
-/*  Мобільна версія (до 767px) */
-@media only screen and (min-width: 375px) {
-  .container {
-    min-width: 320px;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .about-us-content {
-    max-width: 335px;
-    border-radius: 24px 24px 7% 7%;
-    background: #fbfbfb;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .info-about {
-    display: flex;
-    flex-direction: column;
-    padding: 40px 20px;
-    gap: 40px;
-  }
-  .title-about {
-    max-width: 295px;
-    font-size: 28px;
-  }
-  .describtion-about {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 295px;
-  }
-  .text-title-about {
-    font-size: 18px;
-  }
-  .text-info-about {
-    font-size: 12px;
-    line-height: 1.17;
-  }
-}
 /* Планшетна версія (768px ) */
 @media only screen and (min-width: 768px) {
   .container {
@@ -128,6 +93,7 @@
     padding: 50px 32px;
     gap: 50px;
   }
+
   .title-about {
     max-width: 536px;
     font-size: 48px;
