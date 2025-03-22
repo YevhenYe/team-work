@@ -63,14 +63,8 @@ only screen and (min-resolution: 192dpi) {
   height: 24px;
   padding: 0;
   border: 0;
-<<<<<<< HEAD
-  line-height: 0;
-  border-radius: 50%;
-  background-color: #E7E9FC;
-=======
   border-radius: 50%;
   background-color: #00B8D9;;
->>>>>>> main
   border: solid 1px rgba(0, 0, 0, 0.1);
   align-items: center;
   justify-content: center;
@@ -83,31 +77,19 @@ only screen and (min-resolution: 192dpi) {
 }
 
 .icon-close {
-<<<<<<< HEAD
-  fill: #2e2f42;
-=======
   fill: #055545;
->>>>>>> main
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-icon-modal:hover,
 .btn-icon-modal:focus {
-<<<<<<< HEAD
-  background-color: var(--active-ocean);
-=======
   background-color: #0097a7;;
->>>>>>> main
   border: none;
 }
 
 .btn-icon-modal:hover .icon-close,
 .btn-icon-modal:focus .icon-close {
-<<<<<<< HEAD
-  fill: #ffffff;
-=======
   color: #040306;
->>>>>>> main
 }
 
 
@@ -115,15 +97,10 @@ only screen and (min-resolution: 192dpi) {
 
 
 .text-modal {
-<<<<<<< HEAD
-  font-weight: 500;
-  line-height: 1.5;
-=======
 font-weight: 500;
   font-size: 14px;
   letter-spacing: -0.03em;
   color: #fbfbfb;
->>>>>>> main
   text-align: center;
   margin-bottom: 16px;
 }
@@ -140,11 +117,7 @@ font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-<<<<<<< HEAD
-  color: #8e8f99;
-=======
   color: #fbfbfb;
->>>>>>> main
   display: block;
   margin-bottom: 4px;
 }
@@ -159,23 +132,15 @@ font-weight: 500;
   border-radius: 4px;
   width: 100%;
   height: 40px;
-<<<<<<< HEAD
-  padding-left: 38px;
-=======
   font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.03em;
     color: #fbfbfb;
->>>>>>> main
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> main
 .input-modal:hover,
 .input-modal:focus,
 .textarea:hover,
@@ -204,16 +169,6 @@ border-color: #00B8D9;
   margin-bottom: 16px;
 }
 
-<<<<<<< HEAD
-.textarea::placeholder {
-  font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-}
-=======
-
->>>>>>> main
 
 .textarea {
   resize: none;
@@ -222,17 +177,10 @@ border-color: #00B8D9;
   width: 100%;
   height: 120px;
   padding: 8px 16px;
-<<<<<<< HEAD
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: rgba(46, 47, 66, 0.4);
-=======
   font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.03em;
   color: #fbfbfb;
->>>>>>> main
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -248,17 +196,10 @@ border-color: #00B8D9;
 .input-check {}
 
 .label-check {
-<<<<<<< HEAD
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color: var(--label-color);
-=======
   font-weight: 500;
 font-size: 12px;
 letter-spacing: -0.03em;
 color: #fbfbfb;
->>>>>>> main
   display: flex;
   align-items: center;
 }
@@ -266,12 +207,8 @@ color: #fbfbfb;
 .span-check {
   display: inline-flex;
   border-radius: 2px;
-<<<<<<< HEAD
-  border: 1px solid rgba(46, 47, 66, 0.4);
-=======
   resize: none;
     border: 1px solid rgba(255, 255, 255, 0.4);
->>>>>>> main
   width: 16px;
   height: 16px;
   align-items: center;
@@ -294,11 +231,7 @@ color: #fbfbfb;
 }
 
 .input-check:checked+.label-check span {
-<<<<<<< HEAD
-  background-color: #404bbf;
-=======
   background-color:#00B8D9;
->>>>>>> main
   border: none;
   fill: #f4f4fd;
 }
@@ -314,19 +247,6 @@ color: #fbfbfb;
 }
 
 .btn-modal {
-<<<<<<< HEAD
-  background-color: var(--primary-brand);
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  display: block;
-  margin: 0 auto;
-  border-radius: 4px;
-  padding: 16px 32px;
-  min-width: 169px;
-  height: 56px;
-=======
   background-color: #00B8D9;;
 font-weight: 500;
   font-size: 14px;
@@ -339,18 +259,10 @@ font-weight: 500;
   padding: 14px 32px;
   min-width: 141px;
   height: 46px;
->>>>>>> main
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-<<<<<<< HEAD
-.btn-modal:hover,
-.btn-modal:focus {
-  background-color: var(--active-ocean);
-}
-
-=======
 
 
 .btn-modal:hover,
@@ -369,7 +281,6 @@ font-weight: 500;
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
->>>>>>> main
 
 @media screen and (min-width:768px) {
   .modal {
