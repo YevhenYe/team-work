@@ -1,5 +1,6 @@
 /* --- АДАПТИВНА ВЕРСТКА --- */
 /*  Мобільна версія (до 767px) */
+
 .about-us {
   padding-top: 0;
   margin: 0 auto;
@@ -33,7 +34,6 @@
   gap: 20px;
   width: 295px;
   height: 187px;
-  text-align: left;
 }
 .text-title-about {
   font-weight: 400;
@@ -41,7 +41,6 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #1b414b;
-  text-align: left;
 }
 .text-info-about {
   font-weight: 400;
