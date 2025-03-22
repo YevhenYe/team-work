@@ -5,16 +5,7 @@
   padding-top: 0;
   margin: 0 auto;
 }
-.jacht-about-us {
-  width: 100%;
-}
-.container {
-  min-width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .about-us-content {
   max-width: 335px;
   border-radius: 24px 24px 7% 7%;
@@ -66,6 +57,9 @@
   color: #040306;
   opacity: 0.4;
   margin-bottom: 0;
+}
+.jacht-about-us {
+  width: 100%;
 }
 .about-us-image {
   border: none;
