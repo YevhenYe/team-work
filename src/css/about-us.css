@@ -61,6 +61,9 @@
   width: 100%;
 }
 .about-us-image {
+  border: none;
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
   display: block;
   max-width: 100%;
   height: auto;
