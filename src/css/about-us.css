@@ -1,0 +1,125 @@
+/* --- АДАПТИВНА ВЕРСТКА --- */
+/*  Мобільна версія (до 767px) */
+
+.about-us {
+  padding-top: 0;
+  margin: 0 auto;
+}
+.about-us-content {
+  max-width: 335px;
+  border-radius: 24px 24px 7% 7%;
+  background: #fbfbfb;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+.info-about {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  gap: 40px;
+}
+.title-about {
+  font-weight: 500;
+  max-width: 295px;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+.describtion-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 295px;
+  height: 187px;
+}
+.text-title-about {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+}
+.text-info-about {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.02em;
+  color: #040306;
+  opacity: 0.4;
+  margin-bottom: 0;
+}
+.jacht-about-us {
+  width: 100%;
+}
+.about-us-image {
+  border: none;
+  border-radius: 0 0 24px 24px;
+  overflow: hidden;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Планшетна версія (768px ) */
+@media only screen and (min-width: 768px) {
+  .section {
+    padding-bottom: 75px;
+  }
+  .about-us-content {
+    max-width: 704px;
+  }
+  .info-about {
+    padding: 50px 32px;
+    gap: 50px;
+  }
+  .title-about {
+    max-width: 536px;
+    font-size: 48px;
+  }
+  .describtion-about {
+    width: 389px;
+  }
+  .text-title-about {
+    font-size: 23px;
+  }
+  .text-info-about {
+    font-size: 13px;
+    line-height: 1.15;
+  }
+}
+/*  Десктопна версія (1280px) */
+@media only screen and (min-width: 1280px) {
+  .about-us-content {
+    max-width: 1180px;
+  }
+  .info-about {
+    flex-direction: row;
+    padding: 50px;
+    gap: 189px;
+  }
+  .title-about {
+    max-width: 537px;
+  }
+  .describtion-about {
+    width: 354px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .section {
+    padding-bottom: 75px;
+  }
+  .about-us-content {
+    max-width: 1340px;
+  }
+  .info-about {
+    gap: 299px;
+  }
+  .title-about {
+    max-width: 537px;
+  }
+  .describtion-about {
+    width: 404px;
+  }
+}
