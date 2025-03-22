@@ -108,7 +108,12 @@ img {
   gap: 32px;
  }
   .section-advantages-wrapper{
+    margin: 0;
   padding: 90px 50px;
   max-width: 716px;
+  max-height: 424px;
+}
+.section-advantages-photo-wrapper {
+  width: 432px;
 }
 }
