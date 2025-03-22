@@ -5,6 +5,9 @@
   padding-top: 0;
   margin: 0 auto;
 }
+.about-us-container {
+  margin-bottom: 80px;
+}
 .about-us-content {
   max-width: 335px;
   border-radius: 24px 24px 7% 7%;
@@ -33,7 +36,8 @@
   flex-direction: column;
   gap: 20px;
   width: 295px;
-  height: 187px;
+
+  max-width: 100%;
 }
 .text-title-about {
   font-weight: 400;
@@ -64,8 +68,8 @@
 }
 /* Планшетна версія (768px ) */
 @media only screen and (min-width: 768px) {
-  .section {
-    padding-bottom: 75px;
+  .about-us-container {
+    margin-bottom: 150px;
   }
   .about-us-content {
     max-width: 704px;
@@ -107,9 +111,6 @@
   }
 }
 @media only screen and (min-width: 1440px) {
-  .section {
-    padding-bottom: 75px;
-  }
   .about-us-content {
     max-width: 1340px;
   }
