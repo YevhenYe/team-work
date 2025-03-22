@@ -62,14 +62,8 @@
   max-width: 100%;
   height: auto;
 }
-
 /* Планшетна версія (768px ) */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
   .section {
     padding-bottom: 75px;
   }
@@ -80,7 +74,6 @@
     padding: 50px 32px;
     gap: 50px;
   }
-
   .title-about {
     max-width: 536px;
     font-size: 48px;
@@ -98,11 +91,6 @@
 }
 /*  Десктопна версія (1280px) */
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-left: 50px;
-    padding-right: 50px;
-  }
   .about-us-content {
     max-width: 1180px;
   }
@@ -121,9 +109,6 @@
 @media only screen and (min-width: 1440px) {
   .section {
     padding-bottom: 75px;
-  }
-  .container {
-    max-width: 1440px;
   }
   .about-us-content {
     max-width: 1340px;
