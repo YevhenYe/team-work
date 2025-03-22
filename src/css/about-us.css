@@ -1,11 +1,9 @@
 /* --- АДАПТИВНА ВЕРСТКА --- */
-
 /*  Мобільна версія (до 767px) */
 .about-us {
   padding-top: 0;
   margin: 0 auto;
 }
-
 .about-us-content {
   max-width: 335px;
   border-radius: 24px 24px 7% 7%;
@@ -15,14 +13,12 @@
   padding-left: 0;
   padding-right: 0;
 }
-
 .info-about {
   display: flex;
   flex-direction: column;
   padding: 40px 20px;
   gap: 40px;
 }
-
 .title-about {
   font-weight: 500;
   max-width: 295px;
@@ -31,7 +27,6 @@
   letter-spacing: -0.02em;
   color: #1b414b;
 }
-
 .describtion-about {
   display: flex;
   flex-direction: column;
@@ -40,7 +35,6 @@
   height: 187px;
   text-align: left;
 }
-
 .text-title-about {
   font-weight: 400;
   font-size: 18px;
@@ -103,7 +97,6 @@
     line-height: 1.15;
   }
 }
-
 /*  Десктопна версія (1280px) */
 @media only screen and (min-width: 1280px) {
   .container {
