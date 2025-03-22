@@ -141,7 +141,6 @@ font-weight: 500;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .input-modal:hover,
 .input-modal:focus,
 .textarea:hover,
@@ -169,8 +168,6 @@ border-color: #00B8D9;
 .box-textarea {
   margin-bottom: 16px;
 }
-
-
 
 .textarea {
   resize: none;
@@ -264,7 +261,6 @@ font-weight: 500;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 
 .btn-modal:hover,
