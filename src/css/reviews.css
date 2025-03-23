@@ -1,6 +1,6 @@
 .reviews {
-    margin-bottom: 80px;
     margin: 0 auto;
+    margin-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
@@ -29,7 +29,7 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: #fbfbfb;
-    max-width: 335px;
+    max-width: 295px;
     margin: 0 auto;
     margin-bottom: 25px;
 }
@@ -43,14 +43,14 @@
 
 @media screen and (min-width: 1280px) {
     .reviews-title {
-        max-width: 854px;
+        max-width: 800px;
     }
 }
 
 .reviews-text {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: -0.02em;
     text-align: center;
     box-sizing: content-box;
@@ -64,7 +64,7 @@
 @media screen and (min-width: 768px) {
     .reviews-text {
         font-size: 14px;
-        line-height: 1.13;
+        line-height: 1.29;
         margin-bottom: 75px;
         max-width: 571px;
     }
@@ -164,10 +164,28 @@
     padding-right: 8px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 768px) {
     .reviews-comment {
-        padding-left: 0px;
-        padding-right: 0px;
-        max-width: 320px;
+        min-width: 304px;
+        height: 110px;
+    }
+    .reviews-list-item:nth-child(2) .reviews-comment {
+        min-width: 296px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-comment {
+        padding-left: 8px;
+        padding-right: 8px;
+        min-width: 320px;
+        height: 110px;
+    }
+
+    .reviews-list-item:nth-child(3) .reviews-comment{
+        padding-left: 13.5px;
+        padding-right: 13.5px;
     }
 }
