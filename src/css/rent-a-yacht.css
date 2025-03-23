@@ -77,6 +77,9 @@ font-size: 12px;
     background-color:#fbfbfb;
     color: #1b414b;
 }
+.rents-a-yachts-img{
+  border-radius: 24px;
+}
 
 
 @media only screen and (min-width: 375px){
