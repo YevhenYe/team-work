@@ -76,6 +76,7 @@
   .section {
   }
   .hero {
+    background-image: url('../img/hero-t.png');
     padding: 280px 0px 282px;
   }
   .container {
@@ -98,6 +99,12 @@
     font-size: 18px;
 
     line-height: 1.1; /* line-height: 20px; */
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: url('../img/hero-t@2x.png');
+    }
   }
 }
 
