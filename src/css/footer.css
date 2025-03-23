@@ -65,7 +65,7 @@
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(251, 251, 251, 0.3);
-    
+
 }
 
 .social-icon {
@@ -130,7 +130,7 @@
 }
 
 .social-icon-link {
-    
+
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -144,137 +144,138 @@
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-    /* Tablets (from 768px) */
-    @media screen and (min-width: 768px) {
-        .f-container {
-            max-width: 736px;
-            height: 418px;
-            flex-shrink: 0;
-            border-radius: 24px 24px 0px 0px;
-            background: #1b414b;
-        }
-
-        .f-wrap-logo {
-            display: flex;
-            margin-bottom: 96px;
-        }
-
-        .f-logo-list {
-            padding-top: 50px;
-        }
-
-        .f-logo {
-            width: 74px;
-            height: 24px;
-            font-size: 20px;
-            letter-spacing: -0.6px;
-            margin-left: 48px;
-            padding: 0;
-        }
-
-        .social-icon {
-            display: flex;
-            margin-right: 48px;
-            margin-top: 0;
-            padding-top: 50px;
-        }
-
-        .f-title {
-            max-width: 640px;
-            height: 96px;
-            color: #fbfbfb;
-            text-align: center;
-            font-family: Inter;
-            font-size: 32px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 100%;
-            letter-spacing: -0.64px;
-            display: flex;
-            justify-content: center;
-            margin-bottom: 99px;
-        }
-
-        .f-list {
-            margin-left: 106px;
-        }
-
-        .f-item {
-            width: 91px;
-            height: 40px;
-            flex-shrink: 0;
-            color: #fbfbfb;
-            text-align: center;
-            font-family: Inter;
-            font-size: 9px;
-            font-weight: 400;
-            line-height: 130%;
-            text-transform: uppercase;
-            border-radius: 8px;
-            background: rgba(251, 251, 251, 0.3);
-            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            cursor: pointer;
-        }
-
-        .f-items {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-        .adv-privacy {
-            gap: 32px;
-            color: rgba(251, 251, 251, 0.4);
-            text-align: center;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 118%;
-            letter-spacing: 0.42px;
-        }
-
-        .advent {
-            margin-left: 0;
-        }
+/* Tablets (from 768px) */
+@media screen and (min-width: 768px) {
+    .f-container {
+        max-width: 736px;
+        height: 418px;
+        flex-shrink: 0;
+        border-radius: 24px 24px 0px 0px;
+        background: #1b414b;
     }
 
-    /* Desktop (from 1280px) */
-    @media screen and (min-width: 1280px) {
-        .f-container {
-            max-width: 1230px;
-            height: 418px;
-            flex-shrink: 0;
-            border-radius: 24px 24px 0px 0px;
-            background: #1b414b;
-        }
-
-        .f-logo-list {
-            display: flex;
-            flex-wrap: nowrap;
-        }
-
-        .f-list {
-            display: flex;
-            align-items: center;
-            flex-wrap: nowrap;
-        }
-
-        .f-logo {
-            margin-left: 75px;
-            padding: 0;
-        }
-
-        .social-icon {
-            display: flex;
-            padding-left: 0;
-            margin-right: 75px;
-        }
-
-        .f-list {
-            margin-left: 326px;
-            margin-right: 311px;
-        }
-
-        .f-title {
-            width: 699px;
-        }
+    .f-wrap-logo {
+        display: flex;
+        margin-bottom: 96px;
     }
+
+    .f-logo-list {
+        padding-top: 50px;
+    }
+
+    .f-logo {
+        width: 74px;
+        height: 24px;
+        font-size: 20px;
+        letter-spacing: -0.6px;
+        margin-left: 48px;
+        padding: 0;
+    }
+
+    .social-icon {
+        display: flex;
+        margin-right: 48px;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+
+    .f-title {
+        max-width: 640px;
+        height: 96px;
+        color: #fbfbfb;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: -0.64px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 99px;
+    }
+
+    .f-list {
+        margin-left: 106px;
+    }
+
+    .f-item {
+        width: 91px;
+        height: 40px;
+        flex-shrink: 0;
+        color: #fbfbfb;
+        text-align: center;
+        font-family: Inter;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 130%;
+        text-transform: uppercase;
+        border-radius: 8px;
+        background: rgba(251, 251, 251, 0.3);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        cursor: pointer;
+    }
+
+    .f-items {
+        display: flex;
+        margin-bottom: 20px;
+    }
+
+    .adv-privacy {
+        gap: 32px;
+        color: rgba(251, 251, 251, 0.4);
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 118%;
+        letter-spacing: 0.42px;
+    }
+
+    .advent {
+        margin-left: 0;
+    }
+}
+
+/* Desktop (from 1280px) */
+@media screen and (min-width: 1280px) {
+    .f-container {
+        padding: 0;
+        max-width: 1230px;
+        height: 418px;
+        flex-shrink: 0;
+        border-radius: 24px 24px 0px 0px;
+        background: #1b414b;
+    }
+
+    .f-logo-list {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .f-list {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .f-logo {
+        margin-left: 75px;
+        padding: 0;
+    }
+
+    .social-icon {
+        display: flex;
+        padding-left: 0;
+        margin-right: 75px;
+    }
+
+    .f-list {
+        margin-left: 326px;
+        margin-right: 311px;
+    }
+
+    .f-title {
+        width: 699px;
+    }
+}
