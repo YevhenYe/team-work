@@ -141,7 +141,6 @@ font-weight: 500;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
 .input-modal:hover,
 .input-modal:focus,
 .textarea:hover,
@@ -155,7 +154,7 @@ border-color: #00B8D9;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: #2e2f42;
+  fill: #055545;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -169,8 +168,6 @@ border-color: #00B8D9;
 .box-textarea {
   margin-bottom: 16px;
 }
-
-
 
 .textarea {
   resize: none;
@@ -229,13 +226,19 @@ color: #fbfbfb;
   position: absolute;
   top: 50%;
   left: 50%;
+  visibility: hidden;
+    opacity: 0;
   transform: translate(-50%, -50%);
+  
 }
 
-.input-check:checked+.label-check span {
+
+.input-check:checked+.label-check .span-check .icon-ok {
   background-color:#00B8D9;
   border: none;
   fill: #f4f4fd;
+  visibility: visible;
+    opacity: 1;
 }
 
 
@@ -264,7 +267,6 @@ font-weight: 500;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 
 .btn-modal:hover,
