@@ -1,6 +1,16 @@
 .section {
 }
 .hero {
+  background: url('../img/hero-m.png');
+  background-repeat: no-repeat;
+  background-position: center;
+
+  /*header out of flow*/
+  padding: 260px 0px 302px;
+  /* width: 100%; */
+  /* header in flow */
+  /* padding: 0 0 302px; */
+  /* padding-bottom: 302px; */
 }
 .container {
 }
@@ -40,11 +50,19 @@
   font-weight: 500;
   font-size: 14px;
 
-  /* line-height: 18px; */
-  line-height: 1.28571;
+  line-height: 1.28; /* line-height: 18px; */
   letter-spacing: -0.02em;
   color: #fbfbfb;
+  transition: background, color;
+  transition-duration: 250ms;
 }
+
+.cta-btn:hover,
+.cta-btn:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+
 @media screen and (min-width: 768px) {
 }
 
