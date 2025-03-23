@@ -154,7 +154,7 @@ border-color: #00B8D9;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
-  fill: #2e2f42;
+  fill: #055545;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -226,13 +226,19 @@ color: #fbfbfb;
   position: absolute;
   top: 50%;
   left: 50%;
+  visibility: hidden;
+    opacity: 0;
   transform: translate(-50%, -50%);
+  
 }
 
-.input-check:checked+.label-check span {
+
+.input-check:checked+.label-check .span-check .icon-ok {
   background-color:#00B8D9;
   border: none;
   fill: #f4f4fd;
+  visibility: visible;
+    opacity: 1;
 }
 
 
