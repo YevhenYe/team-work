@@ -100,7 +100,7 @@
   }
   .info-about {
     flex-direction: row;
-    padding: 50px;
+    padding: 50px 50px 100px;
     gap: 189px;
   }
   .title-about {
