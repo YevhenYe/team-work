@@ -33,3 +33,4 @@ function f2() {
 }
 mobileMenuBtnBurger.addEventListener('click', f1);
 mobileMenuBtnClose.addEventListener('click', f2);
+
