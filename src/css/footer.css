@@ -12,7 +12,7 @@
 }
 
 .f-logo-list {
-    padding-top: 40px;
+
     flex-shrink: 1;
     display: flex;
     align-items: start;
@@ -28,7 +28,6 @@
     font-size: 14px;
     font-weight: 500;
     letter-spacing: -0.42px;
-    padding-left: 30px;
     display: block;
     padding: 0;
 }
@@ -40,7 +39,8 @@
     margin-left: auto;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-left: auto;
+    margin-left: 37px;
+        
 }
 
 .f-item {
@@ -48,7 +48,6 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 1;
-    color: #fbfbfb;
     text-align: center;
     font-family: Inter;
     font-size: 9px;
@@ -86,7 +85,7 @@
     margin-right: auto;
 }
 
-.f-link {
+/*.f-link {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +95,7 @@
     padding-right: 25px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+*/
 .f-items {
     display: flex;
     gap: 20px;
@@ -117,12 +116,12 @@
     letter-spacing: 0.36px;
 }
 
-.f-link:focus {
+.f-item:focus {
     color: #1b414b;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.f-link:hover {
+.f-item:hover {
     color: #1b414b;
     background-color: #fbfbfb;
     transition: backround-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -158,11 +157,16 @@
 
     .f-wrap-logo {
         display: flex;
+        justify-content: space-between;
         margin-bottom: 96px;
     }
 
-    .f-logo-list {
-        padding-top: 50px;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        
     }
 
     .f-logo {
@@ -170,18 +174,12 @@
         height: 24px;
         font-size: 20px;
         letter-spacing: -0.6px;
-        margin-left: 48px;
         padding: 0;
     }
 
     .social-icon {
         display: flex;
-
-
         margin-top: 0;
-        padding-top: 50px;
-
-
     }
 
     .f-title {
@@ -200,7 +198,7 @@
     }
 
     .f-list {
-        margin-left: 106px;
+       margin-left: 110px;
     }
 
     .f-item {
@@ -221,7 +219,7 @@
 
     .f-items {
         display: flex;
-        margin-bottom: 20px;
+        
     }
 
     .adv-privacy {
@@ -259,17 +257,19 @@
         display: flex;
         align-items: center;
         flex-wrap: nowrap;
+        padding-top: 50px;
     }
 
     .f-logo {
-        margin-left: 75px;
-        padding: 0;
+        padding-top: 50px;
+        
     }
 
     .social-icon {
         display: flex;
         padding-left: 0;
         margin-right: 75px;
+        padding-top: 50px;
     }
 
     .f-list {
