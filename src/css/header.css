@@ -1,6 +1,5 @@
 .header-container {
   display: flex;
-  position: absolute;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #fbfbfb;
@@ -8,7 +7,11 @@
   width: 335px;
   height: 42px;
   background-color: #fbfbfb;
+  position: absolute;
+  top: 32px;
   padding: 0 30px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .logo-header {
@@ -38,7 +41,6 @@
   .header-container {
     width: 704px;
     height: 48px;
-    transform: translateX(50%);
   }
   .mob-menu {
     display: none;
