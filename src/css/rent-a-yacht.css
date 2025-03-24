@@ -1,0 +1,130 @@
+.rents-a-yachts{
+  padding-bottom: 80px;
+}
+.rents-a-yachtc-box{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rents-a-yachtc-box-2{
+  display: flex;
+    flex-direction: column;
+      align-items: start;
+}
+.rents-a-yachts-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    text-align: center;
+   
+}
+.rents-a-yachts-input{
+  border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 14px 18px;
+    width: 100%;
+    height: 42px;
+    margin-bottom: 18px;
+    color: inherit;
+    background-color: transparent;
+      outline: transparent;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.rents-a-yachts-textarea{
+  border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 12px;
+    padding: 14px 18px;
+    width: 100%;
+    height: 108px;
+    background-color: transparent;
+      outline: transparent;
+    margin-bottom: 40px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    resize: none;
+    color: inherit;
+}
+.rents-a-yachts-input::placeholder{
+font-size: 12px;
+  line-height: 1.17;
+  color: rgba(251, 251, 251, 0.4);
+}
+
+.rents-a-yachts-input:hover,
+.rents-a-yachts-input:focus,
+.rents-a-yachts-textarea:hover,
+.rents-a-yachts-textarea:focus {
+  border-color: #00B8D9;
+  box-shadow: 0 0 5px 2px rgba(0, 184, 217, 0.5);
+}
+.rents-a-yachtc-btn{
+  border-radius: 15px;
+    padding: 14px 44px;
+    width: 122px;
+    height: 46px;
+      font-weight: 500;
+    border: none;
+      line-height: 1.29;
+      letter-spacing: -0.02em;
+      background-color: #1b414b;;
+      color: #fbfbfb;
+      margin-bottom: 80px;
+}
+.rents-a-yachtc-btn:hover,
+.rents-a-yachtc-btn:focus{
+    background-color:#fbfbfb;
+    color: #1b414b;
+}
+.rents-a-yachts-img{
+  border-radius: 24px;
+}
+
+
+@media only screen and (min-width: 375px){
+  .rents-a-yachts {padding-bottom: 80px;}
+}
+
+@media only screen and (min-width: 768px){
+.rents-a-yachts-input{
+  width: 473px;
+}
+.rents-a-yachts-title{
+  font-size: 48px;
+  margin-bottom: 50px;
+
+}
+.rents-a-yachtc-box{
+align-items: center;
+}
+.rents-a-yachts-input::placeholder{
+font-size: 14px;
+line-height: 1.29;
+}
+.rents-a-yachts-textarea
+{margin-bottom: 50px;
+}
+.rents-a-yachtc-btn{
+padding: 18px 75px;
+  width: 194px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 1.1;
+  margin-bottom: 100px;
+}
+}
+
+@media only screen and (min-width: 1280px){
+  .rents-a-yachtc-box{
+    flex-direction: row-reverse;
+    align-items: start;
+    gap: 50px;
+  }
+        .rents-a-yachtc-btn{
+          margin-bottom: 0;
+        }
+             .rents-a-yachts-textarea{margin-bottom: 90px;}
+      
+}
+
