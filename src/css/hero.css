@@ -1,27 +1,16 @@
-.section {
-}
 .hero {
   background: url('/img/hero-m.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   min-width: 320px;
-  /*header out of flow*/
   padding: 260px 0px 302px;
-  /* width: 100%; */
-  /* header in flow */
-  /* padding: 0 0 302px; */
-  /* padding-bottom: 302px; */
-}
-.container {
 }
 .hero-title {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 32px;
-
-  /* line-height: 32px; */
-  line-height: 1;
+  line-height: 1; /* line-height: 32px; */
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
@@ -32,7 +21,6 @@
   font-family: 'Inter', sans-serif;
   font-weight: 300;
   font-size: 12px;
-
   line-height: 1.17; /* line-height: 14px; */
   text-align: center;
   color: rgba(251, 251, 251, 0.7);
@@ -47,11 +35,9 @@
   height: 46px;
   display: block;
   margin: auto;
-
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   font-size: 14px;
-
   line-height: 1.28; /* line-height: 18px; */
   letter-spacing: -0.02em;
   color: #fbfbfb;
@@ -68,18 +54,13 @@
 @media screen and (min-resolution: 2x) {
   .hero {
     background-image: url('/img/hero-m@2x.png');
-    /* background-size: contain; */
   }
 }
 
 @media screen and (min-width: 768px) {
-  .section {
-  }
   .hero {
     background-image: url('/img/hero-t.png');
     padding: 280px 0px 282px;
-  }
-  .container {
   }
   .hero-title {
     padding: 0;
@@ -110,8 +91,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .section {
-  }
   .hero {
     background-image: url('/img/hero-pc0.png');
     padding: 235px 0px 315px;
@@ -132,8 +111,6 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .section {
-  }
   .hero {
     background-image: url('/img/hero-pc.png');
     padding: 235px 0px 315px;
