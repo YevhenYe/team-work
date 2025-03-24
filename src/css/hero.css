@@ -1,7 +1,7 @@
 .section {
 }
 .hero {
-  background: url('../img/hero-m.png');
+  background: url('/img/hero-m.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,7 @@
 
 @media screen and (min-resolution: 2x) {
   .hero {
-    background-image: url('../img/hero-m@2x.png');
+    background-image: url('/img/hero-m@2x.png');
     /* background-size: contain; */
   }
 }
@@ -76,7 +76,7 @@
   .section {
   }
   .hero {
-    background-image: url('../img/hero-t.png');
+    background-image: url('/img/hero-t.png');
     padding: 280px 0px 282px;
   }
   .container {
@@ -104,7 +104,7 @@
 
   @media screen and (min-resolution: 2x) {
     .hero {
-      background-image: url('../img/hero-t@2x.png');
+      background-image: url('/img/hero-t@2x.png');
     }
   }
 }
@@ -113,7 +113,7 @@
   .section {
   }
   .hero {
-    background-image: url('../img/hero-pc0.png');
+    background-image: url('/img/hero-pc0.png');
     padding: 235px 0px 315px;
   }
 
@@ -126,7 +126,7 @@
 
   @media screen and (min-resolution: 2x) {
     .hero {
-      background-image: url('../img/hero-pc0@2x.png');
+      background-image: url('/img/hero-pc0@2x.png');
     }
   }
 }
@@ -135,13 +135,13 @@
   .section {
   }
   .hero {
-    background-image: url('../img/hero-pc.png');
+    background-image: url('/img/hero-pc.png');
     padding: 235px 0px 315px;
   }
 
   @media screen and (min-resolution: 2x) {
     .hero {
-      background-image: url('../img/hero-pc@2x.png');
+      background-image: url('/img/hero-pc@2x.png');
     }
   }
 }
