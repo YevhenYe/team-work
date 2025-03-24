@@ -17,3 +17,5 @@
     refs.modal.classList.toggle("is-open");
   }
 })();
+
+import './js/mobile-menu.js'
