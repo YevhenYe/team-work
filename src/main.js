@@ -18,4 +18,4 @@
   }
 })();
 
-import './js/mobile-menu.js'
+import './partials/mobile-menu.js'
