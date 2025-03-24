@@ -34,3 +34,40 @@ function f2() {
 mobileMenuBtnBurger.addEventListener('click', f1);
 mobileMenuBtnClose.addEventListener('click', f2);
 
+(() => {
+  const refs = {
+    closeModalBtn: document.querySelector("[data-modal-close]"),
+    modal: document.querySelector("[data-modal]"),
+    mobileMenu: document.querySelector('.mobile-menu'),
+  };
+  // Открытие модалки по всем кнопкам с data-modal-open
+  document.querySelectorAll('[data-modal-open]').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault(); // если это <a href="#">
+      refs.modal.classList.add('is-open');         // открыть модалку
+      refs.mobileMenu.classList.remove('is-open-mobile-menu'); // закрыть мобильное меню, если открыто
+    });
+  });
+  // Закрытие модалки
+  refs.closeModalBtn.addEventListener("click", () => {
+    refs.modal.classList.remove("is-open");
+  });
+  // Мобильное меню логика
+  const mobileMenuBtnBurger = document.querySelector('.mob-menu');
+  const mobileMenuBtnClose = document.querySelector('.mob-menu-close');
+  function openMobileMenu() {
+    refs.mobileMenu.classList.add('is-open-mobile-menu');
+  }
+  function toggleMobileMenu() {
+    refs.mobileMenu.classList.toggle('is-open-mobile-menu');
+  }
+  mobileMenuBtnBurger.addEventListener('click', openMobileMenu);
+  mobileMenuBtnClose.addEventListener('click', toggleMobileMenu);
+  // При клике на любую ссылку в мобильном меню — закрываем его
+  const menuLinks = document.querySelectorAll('.mobile-menu-btn');
+  menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      refs.mobileMenu.classList.remove('is-open-mobile-menu');
+    });
+  });
+})();
