@@ -83,7 +83,7 @@
     text-align: center;
     color: #fbfbfb;
     max-width: 277px;
-    margin-bottom: 82px;
+    margin-bottom: 82px; 
     margin-left: auto;
     margin-right: auto;
 }
@@ -126,7 +126,6 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.36px;
-
 }
 
 .f-item:focus {
@@ -257,7 +256,6 @@
     .f-container {
         padding: 0;
         max-width: 1230px;
-
         flex-shrink: 0;
         border-radius: 24px 24px 0px 0px;
         background: #1b414b;

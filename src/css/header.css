@@ -7,7 +7,6 @@
   width: 335px;
   height: 42px;
   background-color: #fbfbfb;
-  margin-top: 20px;
   margin-bottom: 198px;
 }
 .logo-header {
@@ -35,7 +34,6 @@
   .header-container {
     width: 704px;
     height: 48px;
-    margin-top: 32px;
     margin-bottom: 200px;
   }
   .mob-menu {

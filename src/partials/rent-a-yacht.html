@@ -1,0 +1,109 @@
+<section class="rents-a-yachts" id="form">
+  <div class="container">
+    <div class="rents-a-yachtc-box">
+      <div class="rents-a-yachtc-box-2">
+        <h2 class="rents-a-yachts-title">Rent a yacht now</h2>
+        <form class="">
+          <div class="">
+            <label class="rents-a-yachtc-label" for="user-name"></label>
+            <div class="">
+              <input
+                placeholder="Full Name"
+                class="rents-a-yachts-input"
+                name="user-name"
+                type="text"
+                id="user-name"
+                required
+                title="Yevhen"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+"
+              />
+            </div>
+          </div>
+
+          <div class="">
+            <label class="rents-a-yachtc-label" for="user-email"></label>
+            <div class="box-input">
+              <input
+                placeholder="Email"
+                class="rents-a-yachts-input"
+                name="user-email-modal"
+                type="email"
+                id="user-email-"
+                title="example@gmai.com"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </div>
+          </div>
+          <div class="">
+            <label class="rents-a-yachtc-label" for="user-tel"></label>
+            <div class="">
+              <input
+                placeholder="Phone number"
+                class="rents-a-yachts-input"
+                name="user-tel"
+                type="tel"
+                id="user-tel"
+                required
+                pattern="^\+\d{2}-\d{3}-\d{3}-\d{2}-\d{2}$"
+              />
+            </div>
+          </div>
+          <div class="">
+            <label class="rents-a-yachtc-label" for="user-comment"></label>
+            <textarea
+              placeholder="Comment"
+              class="rents-a-yachts-textarea"
+              name="user-comment"
+              id="user-comment"
+              rows="10"
+            ></textarea>
+          </div>
+          <button class="rents-a-yachtc-btn" type="submit">Send</button>
+        </form>
+      </div>
+      <picture class="jacht-about-us">
+        <!-- Для экранов от 1440px -->
+        <source
+          srcset="
+            /img/rents-a-yachts/rent-a-yachts-desk-big@1.jpg 1x,
+            /img/rents-a-yachts/rent-a-yachts-desk-big@2.jpg 2x
+          "
+          media="(min-width: 1440px)"
+        />
+        <!-- Для экранов от 1280px до 1439px -->
+        <source
+          srcset="
+            /img/rents-a-yachts/rent-a-yachts-desk@1.jpg 1x,
+            /img/rents-a-yachts/rent-a-yachts-desk@2.jpg 2x
+          "
+          media="(min-width: 1280px) and (max-width: 1439px)"
+          width="658"
+          height="536"
+        />
+        <!-- Для экранов от 768px до 1279px -->
+        <source
+          srcset="
+            /img/rents-a-yachts/rent-a-yachts-tab@1.jpg 1x,
+            /img/rents-a-yachts/rent-a-yachts-tab@2.jpg 2x
+          "
+          media="(min-width: 768px) and (max-width: 1279px)"
+        />
+        <!-- Для экранов до 375px (включая 2x) -->
+        <source
+          srcset="
+            /img/rents-a-yachts/rent-a-yachts-mob@1.jpg 1x,
+            /img/rents-a-yachts/rent-a-yachts-mob@2.jpg 2x
+          "
+          media="(min-width: 320px)"
+        />
+        <!-- Изображение по умолчанию -->
+        <img
+          class="rents-a-yachts-img"
+          src="/img/rents-a-yachts/rent-a-yachts-mob@1.jpg"
+          alt="premium-yacht"
+        />
+      </picture>
+    </div>
+  </div>
+</section>
