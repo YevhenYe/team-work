@@ -18,4 +18,18 @@
   }
 })();
 
-import './mobile-menu.js'
+// import './mobile-menu.js'
+
+const mobileMenu = document.querySelector('.mobile-menu');
+const mobileMenuBtnBurger = document.querySelector('.mob-menu');
+const mobileMenuBtnClose = document.querySelector('.mob-menu-close');
+
+function f1() {
+  mobileMenu.classList.add('is-open-mobile-menu')
+}
+
+function f2() {
+  mobileMenu.classList.toggle('is-open-mobile-menu')
+}
+mobileMenuBtnBurger.addEventListener('click', f1);
+mobileMenuBtnClose.addEventListener('click', f2);
