@@ -19,65 +19,69 @@
       rel="stylesheet"
     />
     <script type="module" crossorigin src="/team-work/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/team-work/assets/index-BgmLehPm.css">
+    <link rel="stylesheet" crossorigin href="/team-work/assets/index-CpWShUf8.css">
   </head>
   <body>
     <header class="page-header">
-  <div class="container header-container">
-    <a class="logo-header logo-link" href="./index.html">yachtjet</a>
+  <div class="containe">
+    <div class="r header-container">
+      <a class="logo-header logo-link" href="./index.html">yachtjet</a>
 
-    <nav>
-      <ul class="navi-menu">
-        <li><a class="btn-menu" href="#about">About</a></li>
-        <li><a class="btn-menu" href="#yachts">Yachts</a></li>
-        <li><a class="btn-menu" href="#reviews">Reviews</a></li>
-        <li><a class="btn-menu" href="#" data-modal-open>Order Service</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul class="navi-menu">
+          <li><a class="btn-menu" href="#about">About</a></li>
+          <li><a class="btn-menu" href="#yachts">Yachts</a></li>
+          <li><a class="btn-menu" href="#reviews">Reviews</a></li>
+          <li>
+            <a class="btn-menu" href="#" data-modal-open>Order Service</a>
+          </li>
+        </ul>
+      </nav>
 
-    <address>
-      <ul class="social-header">
-        <li class="li-social-header">
-          <a
-            class="link-social-header"
-            href="https://www.instagram.com/goitclub/"
-            target="_blank"
-          >
-            <svg class="icon-svg-header" width="19" height="19">
-              <use href="/team-work/assets/icons-u14xK2-k.svg#icon-insta"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="li-social-header">
-          <a
-            class="link-social-header"
-            href="https://www.youtube.com/c/GoIT"
-            target="_blank"
-          >
-            <svg class="icon-svg-header" width="20" height="20">
-              <use href="/team-work/assets/icons-u14xK2-k.svg#icon-youtube"></use>
-            </svg>
-          </a>
-        </li>
-        <li class="li-social-header">
-          <a
-            class="link-social-header"
-            href="https://www.facebook.com/goITclub/"
-            target="_blank"
-          >
-            <svg class="icon-svg-header" width="20" height="20">
-              <use href="/team-work/assets/icons-u14xK2-k.svg#icon-fb"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
-    </address>
+      <address>
+        <ul class="social-header">
+          <li class="li-social-header">
+            <a
+              class="link-social-header"
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+            >
+              <svg class="icon-svg-header" width="19" height="19">
+                <use href="/team-work/assets/icons-u14xK2-k.svg#icon-insta"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="li-social-header">
+            <a
+              class="link-social-header"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+            >
+              <svg class="icon-svg-header" width="20" height="20">
+                <use href="/team-work/assets/icons-u14xK2-k.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="li-social-header">
+            <a
+              class="link-social-header"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+            >
+              <svg class="icon-svg-header" width="20" height="20">
+                <use href="/team-work/assets/icons-u14xK2-k.svg#icon-fb"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </address>
 
-    <button class="mob-menu" type="button">
-      <svg class="mob-menu-icon" width="28" height="28" data-menu-open>
-        <use href="/team-work/assets/icons-u14xK2-k.svg#icon-burger"></use>
-      </svg>
-    </button>
+      <button class="mob-menu" type="button">
+        <svg class="mob-menu-icon" width="28" height="28" data-menu-open>
+          <use href="/team-work/assets/icons-u14xK2-k.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </header>
 
@@ -150,7 +154,8 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="section hero">
+      <div class="box-image">
+        <section class="section hero">
   <div class="container">
     <h1 class="hero-title">
       Explore the High Seas with Our Luxury Yacht Rentals
@@ -164,7 +169,7 @@
   </div>
 </section>
 
-      <section class="section about-us" id="about">
+        <section class="section about-us" id="about">
     <div class="container about-us-container">
         <div class="about-us-content">
             <div class="info-about">
@@ -197,6 +202,8 @@
         </div>
     </div>
 </section>
+      </div>
+
       <section class="our-yachts" id="yachts">
   <div class="container">
     <h2 class="our-yachts-title">
@@ -426,7 +433,7 @@
                 class="rents-a-yachts-input"
                 name="user-email-modal"
                 type="email"
-                id="user-email-"
+                id="user-email"
                 title="example@gmai.com"
                 pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
                 required
