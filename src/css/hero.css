@@ -1,0 +1,129 @@
+.hero {
+background-image: url('/img/hero-m.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+width: 100%;
+  padding-top: 215px;
+  padding-bottom: 243px;
+}
+
+
+@media screen and (min-resolution: 2x) {
+  .hero {
+    background-image: url('/img/hero-m@2x.png');
+  }
+}
+.hero-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1; /* line-height: 32px; */
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin-bottom: 24px;
+  
+}
+
+.hero-desc {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17; /* line-height: 14px; */
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 38px;
+}
+
+.cta-btn {
+  background: #1b414b;
+  border-radius: 15px;
+  padding: 14px 32px;
+  width: 141px;
+  height: 46px;
+  display: block;
+  margin: auto;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28; /* line-height: 18px; */
+  letter-spacing: -0.02em;
+  transition: background, color;
+  transition-duration: 250ms;
+}
+
+.cta-btn:hover,
+.cta-btn:focus {
+  background: #fbfbfb;
+  color: #1b414b;
+}
+@media screen and (min-width: 768px){
+.hero-title {
+    font-size: 70px;
+  }
+    .hero {
+      background-image: url('/img/hero-t.png');
+      /* padding: 280px 0px 282px; */
+      
+    }
+        @media screen and (min-resolution: 2x) {
+          .hero {
+            background-image: url('/img/hero-t@2x.png');
+          }
+        }
+
+  .hero-desc {
+    max-width: 597px;
+    font-size: 16px;
+
+    line-height: 1.4;
+    /* line-height: 22px; */
+    margin: auto;
+    margin-bottom: 48px;
+  }
+
+  .cta-btn {
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    font-size: 18px;
+
+    line-height: 1.1;
+    /* line-height: 20px; */
+  }
+}
+  
+
+        @media screen and (min-width: 1280px){
+.hero-title {
+    max-width: 1001px;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+    .hero {
+      background-image: url('/img/hero-pc0.png');
+      /* padding: 235px 0px 315px; */
+    
+    }
+        }
+                @media screen and (min-resolution: 2x) {
+                  .hero {
+                    background-image: url('/img/hero-pc0@2x.png');
+                  }
+                }
+ 
+@media screen and (min-width: 1440px) {
+  .hero {
+    background-image: url('/img/hero-pc.png');
+    /* padding: 235px 0px 315px; */
+   
+  }
+
+  @media screen and (min-resolution: 2x) {
+    .hero {
+      background-image: url('/img/hero-pc@2x.png');
+    }
+  }
+}
