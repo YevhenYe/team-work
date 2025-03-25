@@ -114,26 +114,10 @@
     width: fit-content;
 }
 
-/* @media screen and (max-width: 767px) {
-
-    .reviews-list-item:nth-child(2),
-    .reviews-list-item:nth-child(3) {
-        display: none;
-    }
-} */
-
 @media screen and (max-width: 1279px) {
     .reviews-list {
         column-gap: 32px;
     }
-
-    /* .reviews-list-item {
-        width: calc((100% - 32px)/2);
-    }
-
-    .reviews-list-item:nth-child(3) {
-        display: none;
-    } */
 }
 
 @media screen and (min-width: 1280px) {
@@ -146,7 +130,7 @@
     }
 }
 
-@media screen and (min-width: 14400px) {
+@media screen and (min-width: 1440px) {
     .reviews-list {
         column-gap: 32px;
     }
