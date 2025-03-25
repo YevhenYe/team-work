@@ -4,7 +4,7 @@ background-image: url('/img/hero-m.png');
   background-position: center;
   background-size: cover;
 width: 100%;
-  padding-top: 260px;
+  padding-top: 215px;
   padding-bottom: 243px;
 }
 
@@ -64,7 +64,6 @@ width: 100%;
     .hero {
       background-image: url('/img/hero-t.png');
       /* padding: 280px 0px 282px; */
-      background-size: contain;
       
     }
         @media screen and (min-resolution: 2x) {
@@ -101,11 +100,12 @@ width: 100%;
     font-size: 80px;
     margin-left: auto;
     margin-right: auto;
+    
   }
     .hero {
       background-image: url('/img/hero-pc0.png');
       /* padding: 235px 0px 315px; */
-      background-size: contain;
+    
     }
         }
                 @media screen and (min-resolution: 2x) {
@@ -118,7 +118,7 @@ width: 100%;
   .hero {
     background-image: url('/img/hero-pc.png');
     /* padding: 235px 0px 315px; */
-    background-size: contain;
+   
   }
 
   @media screen and (min-resolution: 2x) {
