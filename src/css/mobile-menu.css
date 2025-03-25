@@ -45,11 +45,11 @@
   color: #1b414b;
   padding-block: 12px;
 }
-.mob-menu-close{
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    display: inline-flex;
+.mob-menu-close {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  display: inline-flex;
 }
 .mob-menu-icon-close {
   fill: #055545;
@@ -106,9 +106,6 @@
 .mob-menu-link-social:focus .icon-svg-mob-menu{
   fill: rgba(251, 251, 251, 0.8);
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
   .mobile-menu {
