@@ -110,7 +110,7 @@
     line-height: 1.15;
   }
 }
-/*  Десктопна версія (1280px) */
+/* Десктопна версія (1280px) */
 @media only screen and (min-width: 1280px) {
   .about-us-content {
     max-width: 1180px;
