@@ -3,9 +3,28 @@
 .about-us {
   padding-top: 0;
   margin: 0 auto;
+  position: relative;
+  top: -60px;
 }
+@media only screen and (min-width: 768px) {
+  .about-us {
+    top: -68px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .about-us {
+    top: -55px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .about-us {
+    top: -40px;
+  }
+}
+
 .about-us-container {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .about-us-content {
   width: 100%;
@@ -67,7 +86,7 @@
 /* Планшетна версія (768px ) */
 @media only screen and (min-width: 768px) {
   .about-us-container {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
   .about-us-content {
     max-width: 704px;
@@ -91,7 +110,7 @@
     line-height: 1.15;
   }
 }
-/*  Десктопна версія (1280px) */
+/* Десктопна версія (1280px) */
 @media only screen and (min-width: 1280px) {
   .about-us-content {
     max-width: 1180px;

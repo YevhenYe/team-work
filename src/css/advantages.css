@@ -41,7 +41,6 @@
   font-size: 28px;
   line-height: 1;
   letter-spacing: -0.05em;
-  color: #fbfbfb;
 }
 .section-advantages-line {
   border-radius: 18px;
@@ -54,7 +53,6 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: -0.02em;
-  color: #fbfbfb;
   opacity: 0.8;
 }
 .section-advantages-list-item:first-child .section-advantages-list-item-text {
