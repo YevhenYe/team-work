@@ -7,7 +7,7 @@
   width: 335px;
   height: 42px;
   background-color: #fbfbfb;
-  margin-bottom: 198px;
+  
 }
 .logo-header {
   font-weight: 500;
@@ -34,7 +34,7 @@
   .header-container {
     width: 704px;
     height: 48px;
-    margin-bottom: 200px;
+   
   }
   .mob-menu {
     display: none;
@@ -99,7 +99,7 @@
   .header-container {
     width: 1080px;
     height: 48px;
-    margin-bottom: 155px;
+   
   }
 }
 
