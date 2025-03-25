@@ -66,6 +66,7 @@ font-size: 12px;
     height: 46px;
       font-weight: 500;
     border: none;
+    color: inherit;
       line-height: 1.29;
       letter-spacing: -0.02em;
       background-color: #1b414b;;
