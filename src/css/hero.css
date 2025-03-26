@@ -63,7 +63,7 @@
   }
   .hero {
     background-image: url('/img/hero-t_.jpg');
-    background-size: contain;
+    
     /* padding: 280px 0px 282px; */
   }
   @media screen and (min-resolution: 2x) {
@@ -102,7 +102,7 @@
   }
   .hero {
     background-image: url('/img/hero-desk_.jpg');
-    background-size: cover;
+   
     /* padding: 235px 0px 315px; */
   }
 }
