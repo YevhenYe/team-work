@@ -3,9 +3,10 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 320px;
   padding-top: 215px;
   padding-bottom: 243px;
+  min-width: 320px;
+
 }
 
 @media screen and (min-resolution: 2x) {
@@ -20,6 +21,7 @@
   line-height: 1; /* line-height: 32px; */
   letter-spacing: -0.02em;
   text-align: center;
+
   margin-bottom: 24px;
 }
 
