@@ -33,7 +33,7 @@
   border-radius: 4px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)),
-      url('../img/modal@1.jpg');
+      url('/img/hero-m.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -49,7 +49,7 @@
 only screen and (min-resolution: 192dpi) {
   .modal {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-      url('../img/modal@2x.jpg');
+      url('/img/hero-m@2x.jpg');
   }
 }
 
