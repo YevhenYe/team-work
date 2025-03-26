@@ -4,24 +4,20 @@
   padding-top: 0;
   margin: 0 auto;
   position: relative;
-  top: -60px;
+  top: -59px;
 }
 @media only screen and (min-width: 768px) {
   .about-us {
-    top: -68px;
+    top: -67px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .about-us {
-    top: -55px;
+    top: -35px;
   }
 }
 
-@media only screen and (min-width: 1440px) {
-  .about-us {
-    top: -40px;
-  }
-}
+
 
 .about-us-container {
   padding-bottom: 80px;
