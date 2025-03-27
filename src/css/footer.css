@@ -39,8 +39,15 @@
     margin-left: auto;
     flex-wrap: wrap;
     row-gap: 10px;
-    margin-left: 37px;
+    margin-left: 10px;
         
+}
+
+@media screen and (min-width: 375px){
+    .f-list {
+            margin-left: 37px;
+    
+        }
 }
 
 .f-link {
