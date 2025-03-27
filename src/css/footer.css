@@ -36,7 +36,6 @@
     display: flex;
     gap: 4px;
     align-items: center;
-    margin-left: auto;
     flex-wrap: wrap;
     row-gap: 10px;
     margin-left: 10px;
